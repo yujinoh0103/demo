@@ -15,7 +15,7 @@ public class TestController {
 private TodoService service;
 @GetMapping("/test")
 public ResponseEntity<?>testTodo(){
-String str = service.testService();
+String str = "Oh Yu Jin";
 List<String> list =new ArrayList<>();
 list.add(str);
 ResponseDTO<String> response =
