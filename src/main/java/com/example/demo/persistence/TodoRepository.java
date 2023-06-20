@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import com.example.demo.model.*;
 @Repository
 public interface TodoRepository extends JpaRepository<TodoEntity,String>{
-List<TodoEntity>searchByUserId(String userId);
+List<TodoEntity>findByUserId(String userId);
 }
